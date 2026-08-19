@@ -6,33 +6,23 @@ const withBase = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')
 const skills = [
   { name: 'HTML', icon: '/html.png', level: 'Expert' },
   { name: 'CSS', icon: '/css.png', level: 'Expert' },
-  { name: 'JavaScript', icon: '/javascript.png', level: 'Expert' },
+  { name: 'JavaScript', icon: '/javascript.png', level: 'Intermediate' },
   { name: 'Typescript', icon: '/typescript.png', level: 'Beginner' },
   { name: 'React', icon: '/react.svg', level: 'Intermediate' },
-  { name: 'Express', icon: '/expressjs.webp', level: 'Intermediate' },
-  { name: '.Net', icon: '/dotnet.png', level: 'Intermediate' },
-  { name: 'Elektron', icon: '/elektron.png', level: 'Intermediate' },
+  { name: 'Express', icon: '/expressjs.webp', level: 'Beginner' },
   { name: 'firebase', icon: '/firebase.webp', level: 'Intermediate' },
-  { name: 'Mongo DB', icon: '/mongodb.svg', level: 'Intermediate' },
-  { name: 'Next', icon: '/next-js.png', level: 'Intermediate' },
-  { name: 'Nginx', icon: '/nginx.png', level: 'Intermediate' },
-  { name: 'Postgre', icon: '/postgre.png', level: 'Intermediate' },
-  { name: 'Powershell', icon: '/powershell.png', level: 'Intermediate' },
-  { name: 'Redux', icon: '/redux.png', level: 'Intermediate' },
+  { name: 'Postgre', icon: '/postgre.png', level: 'Beginner' },
   { name: 'Tailwind', icon: '/tailwindcss.png', level: 'Intermediate' },
   { name: 'Typescript', icon: '/typescript.png', level: 'Intermediate' },
-  { name: 'Vercel', icon: '/vercel.png', level: 'Intermediate' },
-  { name: 'Vite', icon: '/vite.svg', level: 'Intermediate' },
+  { name: 'Vercel', icon: '/vercel.png', level: 'Beginner' },
+  { name: 'Vite', icon: '/vite.svg', level: 'Beginner' },
 ];
 
 const toolSkills = [
   { name: 'Figma', icon: '/figma.png', level: 'Intermediate' },
   { name: 'firebase', icon: '/firebase.webp', level: 'Intermediate' },
-  { name: 'Mongo DB', icon: '/mongodb.svg', level: 'Intermediate' },
-  { name: 'Nginx', icon: '/nginx.png', level: 'Intermediate' },
-  { name: 'Postgre', icon: '/postgre.png', level: 'Intermediate' },
-  { name: 'Powershell', icon: '/powershell.png', level: 'Intermediate' },
-  { name: 'Vercel', icon: '/vercel.png', level: 'Intermediate' },
+  { name: 'Postgre', icon: '/postgre.png', level: 'Beginner' },
+  { name: 'Vercel', icon: '/vercel.png', level: 'Beginner' },
 ];
 
 const Skills = () => {

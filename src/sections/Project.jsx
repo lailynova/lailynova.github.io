@@ -8,28 +8,36 @@ const withBase = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')
 const Project = () => {
   const portfolioItems = [
     {
+      title: 'Website Ansa Academy',
+      description: 'Website Profile Ansa Academy Platform Mentoring Lomba',
+      image: withBase('/project4.png'),
+      tags: ['React', 'Tailwind'],
+      detailsLink: 'https://ansa-academy-mn84dqvce-novawardanus-projects.vercel.app/',
+      previewLink: 'https://ansa-academy-mn84dqvce-novawardanus-projects.vercel.app/',
+    },
+    {
       title: 'Website BEM',
       description: 'Website Profile Badan Eksekutif Mahasiswa Fakultas Ilmu Komputer',
       image: withBase('/project3.png'),
       tags: ['React', 'Tailwind'],
-      detailsLink: 'https://www.google.com',
-      previewLink: 'https://www.google.com',
+      detailsLink: 'https://bem-website-silk.vercel.app/',
+      previewLink: 'https://bem-website-silk.vercel.app/',
     },
     {
       title: 'Laporan Perkembangan Siswa',
       description: 'Sebuah sistem yang menjembatani antara guru dan murid untuk mendapatkan akses perkembangan siswa setiap bulannya',
       image: withBase('/project2.png'),
       tags: ['React.js', 'Tailwind', 'Firebase'],
-      detailsLink: 'https://www.google.com',
-      previewLink: 'https://www.google.com',
+      detailsLink: 'https://database-al-akbar.web.app/',
+      previewLink: 'https://database-al-akbar.web.app/',
     },
     {
       title: 'Website Profile',
       description: 'Website profil perusahaan Barincore.Id',
       image: withBase('/project1.png'),
       tags: ['React.js', 'Tailwind'],
-      detailsLink: 'https://www.google.com',
-      previewLink: 'https://www.google.com',
+      detailsLink: 'https://redesign-braincore-w9tu-q7krco0im-novawardanus-projects.vercel.app/',
+      previewLink: 'https://redesign-braincore-w9tu-q7krco0im-novawardanus-projects.vercel.app/',
     },
   ];
 
